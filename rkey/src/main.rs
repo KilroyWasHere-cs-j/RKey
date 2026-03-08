@@ -1,3 +1,6 @@
+use win_keyer;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Scanning ports");
+    win_keyer::scan();
 }
